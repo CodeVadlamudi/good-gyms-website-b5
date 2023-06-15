@@ -1,0 +1,42 @@
+:root {
+  --pink: #e43071;
+  --lightpink: #ffc1d8;
+}
+
+.header {
+  background-color: var(--pink);
+}
+
+.hero__bg {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.btn__bg {
+  border: 2px solid var(--pink);
+}
+
+.btn__bg:hover, .aboutBtn__bg:hover {
+  background-color: var(--pink);
+  color: white;
+}
+
+.aboutBtn__bg {
+    background-color: var(--pink);
+}
+
+.text__color {
+  color: var(--pink);
+}
+
+.about__bg {
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+  width: 100%;
+}
+
+svg {
+    margin-right: 16px;
+}
